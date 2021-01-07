@@ -1,6 +1,16 @@
 <template>
   <div id="workplay">
     <div id="grid-parent" class="grid-parent container">
+      <ThumbLarge
+        data-aos="fade"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+        data-aos-once="true"
+        data-aos-anchor-placement="top"
+        class="blue"
+        title="Fortune 100"
+        filename="glo.svg"
+      />
       <ThumbSmall
         data-aos="fade"
         data-aos-duration="1000"
@@ -61,16 +71,7 @@
         title="DevopsDays"
         filename="dod.svg"
       />
-      <ThumbLarge
-        data-aos="fade"
-        data-aos-duration="1000"
-        data-aos-delay="500"
-        data-aos-once="true"
-        data-aos-anchor-placement="top"
-        class="blue"
-        title="Fortune 100"
-        filename="glo.svg"
-      />
+      
       <!-- <span class="grid-card yellow">
         <span class="caption"><p>This is a label</p></span>
         <a class="zoom"
@@ -118,7 +119,7 @@ import ThumbMedium from "@/components/ThumbMedium.vue";
 import ThumbLarge from "@/components/ThumbLarge.vue";
 
 export default {
-  name: "WorkPlay",
+  name: "WorkPlay2",
   components: {
     ThumbSmall,
     ThumbSmall2,

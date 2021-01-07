@@ -1,21 +1,21 @@
 <template>
   <div id="app" data-aos="fade">
-    <MainNav />
-    <WorkPlay />
+    <MainNav 
+    title="Jacques Ramphal"
+    />
+    <router-view />
     <MainFooter /> 
   </div>
 </template>
 
 <script>
 import MainNav from "./components/MainNav.vue";
-import WorkPlay from "./components/WorkPlay.vue";
 import MainFooter from "./components/MainFooter.vue";
 
 export default {
   name: "App",
   components: {
     MainNav,
-    WorkPlay,
     MainFooter,
   },
 };
@@ -24,4 +24,5 @@ export default {
 <!-- global styles -->
 <style>
 @import "./assets/styles/all.css";
+
 </style>
